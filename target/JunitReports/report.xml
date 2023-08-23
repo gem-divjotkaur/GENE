@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.256" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="General Store Automation" name="User enters the valid credentials - Example #1.1" time="42.126">
+<system-out><![CDATA[
+Given User enters the desired capabilities..................................passed
+Given User selects the country as "India"...................................passed
+When User enters the name as "xyz"..........................................passed
+And User selects the gender as "Female".....................................passed
+And User clicks on the "Let's  Shop" button.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

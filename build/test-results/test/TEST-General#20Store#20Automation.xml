@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="General Store Automation" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-23T07:45:30" hostname="GEMGN-210145" time="42.186">
+  <properties/>
+  <testcase name="User enters the valid credentials" classname="General Store Automation" time="42.186"/>
+  <system-out><![CDATA[
+@SmokeTest
+Scenario Outline: User enters the valid credentials # src/test/resources/features/Feature.feature:15
+  Given User enters the desired capabilities        # stepdefinitions.StepDefinitions.desiredCapabilities()
+  Given User selects the country as "India"         # stepdefinitions.StepDefinitions.navigateToCountry(java.lang.String)
+  When User enters the name as "xyz"                # stepdefinitions.StepDefinitions.navigateToEnterName(java.lang.String)
+  And User selects the gender as "Female"           # stepdefinitions.StepDefinitions.navigateToGender(java.lang.String)
+  And User clicks on the "Let's  Shop" button       # stepdefinitions.StepDefinitions.navigateToLetsShop(java.lang.String)
+]]></system-out>
+  <system-err><![CDATA[Aug 23, 2023 1:15:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
